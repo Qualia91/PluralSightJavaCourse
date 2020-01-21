@@ -1,0 +1,6 @@
+// extra policy bits added onto default.policy via command line
+
+grant {
+    permission java.util.PropertyPermission "user.home", "read";
+    permission java.io.FilePermission "${user.home}/java_security_test/test_with_security_manager_and_custom_permissions.txt", "write";
+};

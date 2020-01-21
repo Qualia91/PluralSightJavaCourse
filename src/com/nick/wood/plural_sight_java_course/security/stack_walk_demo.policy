@@ -1,0 +1,20 @@
+
+// below doesnt work because intellij doesn't make .jar files
+//  // permissions for DataAccess class
+//  grant codeBase "file:D:/Software/Programming/projects/Java/PluralSightJavaCourse/out/production/PluralSightJavaCourse/com/nick/wood/plural_sight_java_course/security/DataAccess.jar" {
+//      permission java.io.FilePermission "D:/Software/Programming/projects/Java/PluralSightJavaCourse/src/com/nick/wood/plural_sight_java_course/security/walking_the_stack_message.txt", "write";
+//  };
+//
+//  // permissions for Data Service class
+//  grant codeBase "file:D:/Software/Programming/projects/Java/PluralSightJavaCourse/out/production/PluralSightJavaCourse/com/nick/wood/plural_sight_java_course/security/DataService.jar" {
+//      permission java.io.FilePermission "D:/Software/Programming/projects/Java/PluralSightJavaCourse/src/com/nick/wood/plural_sight_java_course/security/walking_the_stack_message.txt", "write";
+//  };
+//
+//  // permissions for Main class
+//  grant codeBase "file:D:/Software/Programming/projects/Java/PluralSightJavaCourse/out/production/PluralSightJavaCourse/com/nick/wood/plural_sight_java_course/security/*" {
+//      permission java.io.FilePermission "D:/Software/Programming/projects/Java/PluralSightJavaCourse/src/com/nick/wood/plural_sight_java_course/security/walking_the_stack_message.txt", "write";
+//  };
+
+grant {
+    permission java.io.FilePermission "D:/Software/Programming/projects/Java/PluralSightJavaCourse/src/com/nick/wood/plural_sight_java_course/security/walking_the_stack_message.txt", "write";
+};
