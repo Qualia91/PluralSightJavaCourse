@@ -6,7 +6,7 @@ import twitter4j.conf.ConfigurationBuilder;
 
 import java.util.List;
 
-public class TwitterServiceImpl implements TwitterService {
+public class TwitterServiceImpl /* implements TwitterService*/ {
 
 	// you will need to use your own here im afraid
 	private static final String TWITTER_CONSUMER_KEY = "";
@@ -67,4 +67,5 @@ public class TwitterServiceImpl implements TwitterService {
 		}
 
 	}
+
 }
