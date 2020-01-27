@@ -33,7 +33,7 @@ public class Main {
             }
         }*/
 
-        // Using builder
+        // Using factory
         BuilderPatternExample.Builder builder = new BuilderPatternExample.Builder();
         BuilderPatternExample builderPatternExample = builder.varOne("hello").varThree("World").build();
 

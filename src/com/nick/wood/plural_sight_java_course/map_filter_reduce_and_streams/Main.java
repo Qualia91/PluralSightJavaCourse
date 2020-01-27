@@ -46,11 +46,11 @@ public class Main {
         // a stream on letters
         IntStream stream = "hello".chars();
 
-        // stream builder
+        // stream factory
         Stream.Builder<Object> builder = Stream.builder();
         builder.add("a").add("b").accept("C");
         Stream<Object> build = builder.build();
-        // when build method is called, add() or accept() on builder will throw an exception
+        // when build method is called, add() or accept() on factory will throw an exception
 
         Stream<String> generate = Stream.generate(() -> "one").limit(10);
         generate.forEach(System.out::println);
