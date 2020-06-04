@@ -1,0 +1,6 @@
+grant {
+
+    // permission for custom permission with value
+    permission com.nick.wood.java_learning.security.CustomPermission "Name", "8";
+
+};
