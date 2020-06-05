@@ -1,0 +1,15 @@
+grant {
+
+    // permission to get protection domain
+    permission java.lang.RuntimePermission "getProtectionDomain";
+
+    // permission to read policy
+    permission java.security.SecurityPermission "getPolicy";
+
+    // permission to create security manager
+    permission "java.lang.RuntimePermission" "createSecurityManager";
+
+    // permission to set security manager
+    permission "java.lang.RuntimePermission" "setSecurityManager";
+
+};
